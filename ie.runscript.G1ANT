@@ -1,0 +1,3 @@
+ie.open
+window ‴✱internet explorer✱‴
+ie.runscript ‴alert("Hello world!");‴
