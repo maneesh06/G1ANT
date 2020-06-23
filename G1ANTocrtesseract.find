@@ -1,0 +1,5 @@
+program notepad
+keyboard ⋘ENTER⋙‴   TEST    ‴
+delay 1
+ocrtesseract.find search test
+dialog ♥result
