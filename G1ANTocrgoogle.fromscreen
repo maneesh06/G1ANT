@@ -1,0 +1,7 @@
+♥googleLogin = Provide your Google Cloud credential here
+chrome http://digitalnativestudios.com/textmeshpro/docs/rich-text/lowercase-uppercase-smallcaps.png
+window ✱Chrome✱ style maximize
+delay milliseconds 200
+ocrgoogle.login ♥googleLogin
+ocrgoogle.fromscreen area 338⫽298⫽1569⫽849
+dialog ♥result
