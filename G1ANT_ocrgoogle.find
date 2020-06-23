@@ -1,0 +1,7 @@
+♥googleLogin = Provide your Google Cloud credential here
+ocrgoogle.login ♥googleLogin
+program notepad
+keyboard ⋘ENTER⋙‴   TEST    ‴
+delay 1
+ocrgoogle.find search test
+dialog ♥result
