@@ -1,0 +1,4 @@
+program iexplore arguments ‴g1ant.com/#the-facts‴
+delay 4
+ocrtesseract.fromscreen 10⫽57⫽1160⫽950 result ♥ocr
+dialog ♥ocr
