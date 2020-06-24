@@ -1,0 +1,9 @@
+addon selenium version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+selenium.open chrome url https://www.google.com/finance
+
+-we can find value of a specified element
+selenium.gettext search "gsr" by id result ♥quote
+dialog ‴USD/EUR quote: ‴♥quote
+selenium.close

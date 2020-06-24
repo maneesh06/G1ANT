@@ -1,0 +1,7 @@
+addon ui version 4.103.1.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+program taskmgr
+-text (name, title, label etc.) of any UI element of desktop application 
+ui.gettext ‴/ui[@name='Task Manager']‴
+dialog ♥result

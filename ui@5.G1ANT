@@ -1,0 +1,7 @@
+addon ui version 4.103.1.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+program explorer arguments ♥environment⟦USERPROFILE⟧\Desktop
+
+-inserts text into a specified UI element of a desktop application
+ui.settext ‴/ui[@name='Desktop']/ui[@id='40965']/descendant::ui[@id='SearchEditBox']‴ text .txt

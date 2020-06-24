@@ -1,0 +1,15 @@
+addon selenium version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+selenium.open chrome url g1ant.com
+selenium.newtab facebook.com
+selenium.newtab google.com
+dialog ‴Now let's go back to the first tab‴
+selenium.activatetab search g1ant by url
+
+-close active tab in active browser
+delay 2
+
+selenium.closetab
+delay 2
+selenium.close

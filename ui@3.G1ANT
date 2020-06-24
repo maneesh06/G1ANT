@@ -1,0 +1,7 @@
+addon ui version 4.103.1.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+program notepad
+-bounding box  coordinate of any UI element of desktop application 
+ui.getrectangle ‴/ui[@name='Untitled - Notepad']‴
+dialog ♥result

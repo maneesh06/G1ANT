@@ -1,0 +1,9 @@
+addon selenium version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+selenium.open chrome url youtube.com
+
+-##  specified attribute of a specified element
+selenium.getattribute class search content by id result ♥attribute
+dialog ♥attribute
+selenium.close
