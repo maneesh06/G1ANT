@@ -1,0 +1,18 @@
+addon xlsx version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+xlsx.open C:\Users\MANEESH\Desktop\Book1.xlsx accessmode read result ♥id1
+xlsx.open C:\Users\MANEESH\Desktop\Book2.xlsx accessmode readwrite result ♥id2
+xlsx.switch ♥id1
+
+-gets a value of a specified cell in an .xls(x) file
+xlsx.getvalue row 1 colname A result ♥value1
+dialog ♥value1
+
+-switches between opened .xls(x) files.
+xlsx.switch id ♥id2
+xlsx.getvalue row 1 colname A result ♥value2
+dialog ♥value2
+
+-sets a value of a specified cell in an .xls(x) file.
+xlsx.setvalue value 123 row 25 colname a

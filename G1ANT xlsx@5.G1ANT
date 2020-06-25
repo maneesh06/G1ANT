@@ -1,0 +1,7 @@
+addon xlsx version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+xlsx.open C:\Users\MANEESH\Desktop\Book2.xlsx
+
+-sets a specified sheet as active.
+xlsx.setsheet Sheet3

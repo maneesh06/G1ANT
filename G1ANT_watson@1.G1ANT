@@ -1,0 +1,9 @@
+addon watson version 4.102.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+♥apiKey ="zxzqG_uhwGYwhrj5C55jiWXUL9qfgsEkC_O82hAI_abe"
+♥serverUri = https://gateway-lon.watsonplatform.net/speech-to-text/api
+
+-transcripts speech from an audio file
+watson.speechtotext C:\Users\MANEESH\Downloads\maneesh.mp3 apikey ♥apiKey serveruri ♥serverUri
+dialog ♥result
