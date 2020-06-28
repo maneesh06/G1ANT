@@ -1,0 +1,25 @@
+addon ui version 4.103.1.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+ui.click wpath ‴/ui[@name='Taskbar']/ui[@id='303']/ui[@name='Action Center']‴
+delay 2
+keyboard ⋘TAB 2⋙⋘DOWN 3⋙⋘RIGHT⋙⋘ENTER⋙
+dialog ‴congrats Your Night Light has been opened !‴
+dialog.ask ‴Do you want to turn off the Night Light, Please provide yes or no‴ result ♥id
+if ♥id=="yes"
+   ui.click wpath ‴/ui[@name='Taskbar']/ui[@id='303']/ui[@name='Action Center']‴
+   delay 3
+   keyboard ⋘TAB 2⋙⋘DOWN 3⋙⋘RIGHT⋙⋘ENTER⋙
+   dialog ‴congrats Your Night Light has been closed !‴
+   
+   dialog.ask ‴Now want to increase the brightness ? , Please provide yes or no‴ result ♥id2
+   if ♥id2=="yes"
+      dialog.ask ‴how many percentage% you want to increase your brightness, please provide only number‴ result ♥per
+      ui.click wpath ‴/ui[@name='Taskbar']/ui[@id='303']/ui[@name='Action Center']‴
+      delay 2
+      keyboard ⋘TAB 3⋙⋘RIGHT ♥per⋙
+      dialog ‴Congratulation Your Brightness has been increased ♥per%‴
+   end
+end
+
+dialog ‴Thank You‴

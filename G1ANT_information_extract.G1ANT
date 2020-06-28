@@ -1,0 +1,18 @@
+addon watson version 4.102.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+♥apiKey = "OyKsAu3487ogvOFERWjUDMwzBNSrpV_kWtMvVm9x2Zpi"
+♥serverUri = https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19
+
+-classifies a specified image
+watson.classifyimage C:\Users\MANEESH\Desktop\outlook.png apikey ♥apiKey serveruri ♥serverUri result ♥extract
+
+program notepad
+window ✱notepad✱ style maximize
+keyboard ‴Image After Classification is : ‴
+keyboard ♥extract
+Keyboard ⋘ENTER⋙⋘ENTER⋙
+keyboard ‴Enjoy Your Day ! ‴
+keyboard ⋘ALT+F4⋙
+keyboard ⋘TAB⋙
+keyboard ⋘ENTER⋙

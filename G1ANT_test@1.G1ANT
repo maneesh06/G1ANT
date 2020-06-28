@@ -1,0 +1,29 @@
+addon selenium version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+selenium.open chrome url https://manual.g1ant.com/G1ANT.Addons result ♥id
+window ✱chrome✱ style maximize 
+delay 10
+selenium.newtab url https://www.cricbuzz.com/cricket-team/india/2
+delay 10
+selenium.newtab url https://www.cricbuzz.com/cricket-team/india/2/results
+delay 10
+selenium.seturl url https://www.amazon.in/
+delay 5
+selenium.seturl url https://www.amazon.in/s?k=headphone&ref=nb_sb_noss_2
+delay 5
+selenium.seturl url https://www.amazon.in/Airdopes-201-Wireless-Resistance-Immersive/dp/B0856GJVZ5/ref=sr_1_3?crid=2PXEIA1FP2S4G&dchild=1&keywords=boat%2Bearphone%2B201&qid=1593264294&sprefix=boats%2Bea%2Caps%2C362&sr=8-3&th=1
+
+selenium.gettext search priceblock_ourprice by id result ♥price
+delay 10
+selenium.close
+delay 2
+program notepad
+window ✱notepad✱ style maximize
+keyboard ‴Price of boAt Airdopes on Amazon is:‴
+keyboard ♥price
+Keyboard ⋘ENTER⋙
+keyboard ‴Thank You‴
+keyboard ⋘ALT+F4⋙
+keyboard ⋘TAB⋙
+keyboard ⋘ENTER⋙

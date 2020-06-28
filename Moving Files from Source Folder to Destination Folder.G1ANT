@@ -1,0 +1,17 @@
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+♥source = C:\Users\MANEESH\Desktop\signal_and_system
+♥destination = C:\Users\MANEESH\Desktop\new
+directory.filescount path ♥source result ♥count
+directory path ♥source result ♥list
+dialog ♥count‴ Files to be moved‴
+♥counter = 0
+foreach ♥element in ♥list
+   file.copy path ‴♥element‴ destinationpath ‴C:\Users\MANEESH\Desktop\new‴
+   ♥counter = ♥counter+1
+   dialog Congratulation!‴ ♥counter File has  been moved‴
+    
+   delay 1
+   
+end
+   
